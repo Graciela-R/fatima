@@ -1,0 +1,35 @@
+    <ng-container *ngIf="iscategories; else second">
+        <div class="card-categories-content">
+            <p>{{titleCategories}}</p>
+            <img src="{{image}}">
+        </div>
+
+    </ng-container>
+    <ng-template #second>
+        <ng-container>
+            <div class="card-offers">
+                <p class="title-offers">{{titleCategories}}</p>
+                <p class="description-offers">{{descripcionOffers}}</p>
+                <div class="image-offers-principal">
+                   
+                    <div class="image-offers">
+                        <img src="{{image}}">
+                    </div>
+                    
+                </div>
+                <div class="button-offers-principal">
+                    <app-button titleButton="shop now" [buttonBlue]="true"></app-button>
+
+                </div>
+                
+        
+            </div>
+
+        </ng-container>
+
+    </ng-template>
+    
+    
+    
+
+    

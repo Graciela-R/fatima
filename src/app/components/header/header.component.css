@@ -1,0 +1,35 @@
+.header-principal{
+    display:flex;
+    justify-content: center;
+    height: 50px;
+    
+}
+.header-principal2{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #000;
+}
+.lista{
+    
+}
+.lista ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.lista ul li{
+    margin: 5px;
+   
+
+}
+.lista ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #000;
+}
+.header-button{
+    
+    height: 100%;
+}

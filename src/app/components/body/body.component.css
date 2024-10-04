@@ -1,0 +1,85 @@
+.container{
+    background-color: var(--orange-color);
+    width: 255px;
+    height: 471px;
+    margin-top: 110px;
+    margin-left: 100px;
+    border-radius: 100px;
+    position: relative;
+   
+
+}
+.container-image{
+    width: 255px;
+    height: 471px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url(/images/imageDog-body.svg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    overflow: inherit;
+    position: absolute;
+    
+}
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.body-titulos{
+   
+    margin-left: 130px;
+    width: 45%;
+    height: 30%;
+    
+}
+.body-titulos p{
+    color: #fff;
+}
+.body-imput input{
+    width: 410px;
+    height: 45px;
+    border-radius: 10px;
+
+}
+.body-titulo-Principal h1{
+    font-family: Bold;
+    font-weight: 400px;
+    font-size: 42px;
+}
+
+.body-categorias{
+    
+    width: 100%;
+    
+}
+.body-categries-title p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+.body-categories-cards{
+    display: flex;
+    justify-content: center;
+}
+.body-offers{
+    
+}
+.body-offers-title{
+    display: flex;
+    justify-content: center;
+}
+.body-offers-title p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: var(--orange-color);
+    width: 30%;
+    height: 56px;
+    border-radius: 10px;
+}
+.body-offers-cards{
+    display: flex;
+    justify-content: center;
+}

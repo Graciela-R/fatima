@@ -1,0 +1,46 @@
+<div>
+    <div class="body-container">
+        <diV class="container">
+            <div class="container-image">
+
+            </div> 
+        </diV>
+        <div class="body-titulos">
+            <div class="body-titulo-Principal">
+                <h1>The best place to buy top quality products for your pets</h1>
+            </div>
+            <p> Shop by pet, brand or products on sale!</p>
+            <div class="body-imput">
+                <input type="search">
+                <app-button titleButton="search" [buttonSearch]="true"></app-button>
+            </div>
+
+        </div>  
+    </div>
+    <div class="body-categorias">
+        <div class="body-categries-title">
+            <p>Categories</p>
+        </div>
+        <div class="body-categories-cards">
+            <app-categories [iscategories]="true" titleCategories="Birds" image="/images/birds-categoria.webp"></app-categories>
+            <app-categories [iscategories]="true" titleCategories="Cats" image="/images/cats-categories.webp"></app-categories>
+            <app-categories [iscategories]="true"  titleCategories="Dogs" image="/images/dog-categories.webp"></app-categories>
+            <app-categories [iscategories]="true"  titleCategories="Fish" image="/images/fish-categories.webp"></app-categories>
+            <app-categories [iscategories]="true"  titleCategories="Small Pets" image="/images/rabbit-categories.webp"></app-categories>
+        </div>
+
+    </div>
+    <div class="body-offers">
+        <div class="body-offers-title">
+            <p>Special Offers</p>
+        </div>
+        <div class="body-offers-cards">
+            <app-categories titleCategories="Dog Treats" descripcionOffers="By Dr. Dog" image="/images/dog-offers.webp"></app-categories>
+            <app-categories titleCategories="Cat Treats" descripcionOffers="By Dr. Cat" image="/images/cat-offers.webp"></app-categories>
+            <app-categories titleCategories="Dog Treats" descripcionOffers="By Dr. Dog" image="/images/dog-offers.webp"></app-categories>
+            <app-categories titleCategories="New Brand!" descripcionOffers="Mr. Parker" image="/images/bird-offers.webp"></app-categories>
+             
+        </div>
+
+    </div>
+</div>

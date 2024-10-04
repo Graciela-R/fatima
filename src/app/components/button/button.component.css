@@ -1,0 +1,23 @@
+button{
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+}
+.btn-icon{
+  margin-top: 8px;
+}
+.btn-search{
+  background-color: var(--orange-color);
+  width: 136px;
+  height: 56px;
+  border-radius: 100px;
+  text-transform: capitalize;
+
+}
+.btn-shopNow{
+  background-color: var(--blue-color);
+  width: 174px;
+  height: 44px;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
